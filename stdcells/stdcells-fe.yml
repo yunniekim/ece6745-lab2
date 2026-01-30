@@ -1,0 +1,176 @@
+#=========================================================================
+# TinyFlow stdcells front-end view
+#=========================================================================
+# Valid generic gates: BUF, INV, NOT, AND2, OR2, XOR2, NAND2, NOR2, XNOR2
+
+cells:
+
+  #-----------------------------------------------------------------------
+  # INVX1
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the front-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+  - name: INVX1
+    area_cost: 0 # lambda^2
+
+    pins:
+
+      - name: A
+        type: input
+        cgate: 0 # fF
+
+      - name: Y
+        type: output
+        function: # tree of generic gates
+
+    parasitic_delay:   0 # ps
+    load_delay_factor: 0 # ps/fF
+
+    patterns:
+      - # list of equivalent trees of generic NAND and INV gates
+
+  #-----------------------------------------------------------------------
+  # NAND2X1
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the front-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+  - name: NAND2X1
+    area_cost: 0 # lambda^2
+
+    pins:
+
+      - name: A
+        type: input
+        cgate: 0 # fF
+
+      - name: B
+        type: input
+        cgate: 0 # fF
+
+      - name: Y
+        type: output
+        function: # tree of generic gates
+
+    parasitic_delay:   0 # ps
+    load_delay_factor: 0 # ps/fF
+
+    patterns:
+      - # list of equivalent trees of generic NAND and INV gates
+
+  #-----------------------------------------------------------------------
+  # NOR2X1
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the front-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+  - name: NOR2X1
+    area_cost: 0 # lambda^2
+
+    pins:
+
+      - name: A
+        type: input
+        cgate: 0 # fF
+
+      - name: B
+        type: input
+        cgate: 0 # fF
+
+      - name: Y
+        type: output
+        function: # tree of generic gates
+
+    parasitic_delay:   0 # ps
+    load_delay_factor: 0 # ps/fF
+
+    patterns:
+      - # list of equivalent trees of generic NAND and INV gates
+
+  #-----------------------------------------------------------------------
+  # AOI21X1
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the front-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+  - name: AOI21X1
+    area_cost: 0 # lambda^2
+
+    pins:
+
+      - name: A
+        type: input
+        cgate: 0 # fF
+
+      - name: B
+        type: input
+        cgate: 0 # fF
+
+      - name: C
+        type: input
+        cgate: 0 # fF
+
+      - name: Y
+        type: output
+        function: # tree of generic gates
+
+    parasitic_delay:   0 # ps
+    load_delay_factor: 0 # ps/fF
+
+    patterns:
+      - # list of equivalent trees of generic NAND and INV gates
+
+  #-----------------------------------------------------------------------
+  # TIELO
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the front-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+  - name: TIELO
+    area_cost: 0 # lambda^2
+
+    pins:
+
+      - name: Y
+        type: output
+        function: 0
+
+  #-----------------------------------------------------------------------
+  # TIEHI
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the front-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+  - name: TIEHI
+    area_cost: 0 # lambda^2
+
+    pins:
+
+      - name: Y
+        type: output
+        function: 1
+
+  #-----------------------------------------------------------------------
+  # FILL
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the front-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+  - name: FILL
+    area_cost: 0 # lambda^2
+

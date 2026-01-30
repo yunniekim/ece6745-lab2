@@ -1,0 +1,223 @@
+#=========================================================================
+# TinyFlow Standard Cells Backend View
+#=========================================================================
+
+#=========================================================================
+# General Back-End View Settings
+#=========================================================================
+# This section describes the TinyFlow 180nm PDK metal stack and the
+# stadnard cell placement grid. Do not modify this section!
+
+layers:
+
+  - name:      metal1
+    type:      routing
+    pitch:     8
+    width:     4 
+    spacing:   4
+    gds_layer: 8
+
+  - name:      via12
+    type:      cut
+    spacing:   3
+    gds_layer: 9
+
+  - name:      metal2
+    type:      routing
+    pitch:     8
+    width:     4
+    spacing:   4
+    gds_layer: 10
+
+  - name:      via23
+    type:      cut
+    spacing:   3
+    gds_layer: 11
+
+  - name:      metal3
+    type:      routing
+    pitch:     8 
+    width:     4 
+    spacing:   4
+    gds_layer: 12
+
+  - name:      via34
+    type:      cut
+    spacing:   3
+    gds_layer: 13
+
+  - name:      metal4
+    type:      routing
+    pitch:     8 
+    width:     4
+    spacing:   4
+    gds_layer: 14
+
+  - name:      via45
+    type:      cut
+    spacing:   3
+    gds_layer: 15
+
+  - name:      metal5
+    type:      routing
+    pitch:     8 
+    width:     4
+    spacing:   4
+    gds_layer: 16
+
+  - name:      via56
+    type:      cut
+    spacing:   3
+    gds_layer: 17
+
+  - name:      metal6
+    type:      routing
+    pitch:     8 
+    width:     4
+    spacing:   4
+    gds_layer: 18
+
+sites:
+  - name: core
+    size:
+      width:  8
+      height: 64
+
+#=========================================================================
+# Standard Cell Back-End Views
+#=========================================================================
+
+cells:
+
+  #-----------------------------------------------------------------------
+  # INVX1
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the back-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  
+   - name: INVX1
+     size:
+       width:  0 # lambda
+       height: 0 # lambda
+     pins:
+       - name: A
+         loc:  (0,0) # (x,y) lambda
+       - name: Y
+         loc:  (0,0) # (x,y) lambda
+  
+
+  #-----------------------------------------------------------------------
+  # NAND2X1
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the back-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  
+   - name: NAND2X1
+     size:
+       width:  0 # lambda
+       height: 0 # lambda
+     pins:
+       - name: A
+         loc:  (0,0) # (x,y) lambda
+       - name: B
+         loc:  (0,0) # (x,y) lambda
+       - name: Y
+         loc:  (0,0) # (x,y) lambda
+  
+
+  #-----------------------------------------------------------------------
+  # NOR2X1
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the back-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  
+   - name: NOR2X1
+     size:
+       width:  0 # lambda
+       height: 0 # lambda
+     pins:
+       - name: A
+         loc:  (0,0) # (x,y) lambda
+       - name: B
+         loc:  (0,0) # (x,y) lambda
+       - name: Y
+         loc:  (0,0) # (x,y) lambda
+  
+
+  #-----------------------------------------------------------------------
+  # AOI21X1
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the back-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  
+   - name: AOI21X1
+     size:
+       width:  0 # lambda
+       height: 0 # lambda
+     pins:
+       - name: A
+         loc:  (0,0) # (x,y) lambda
+       - name: B
+         loc:  (0,0) # (x,y) lambda
+       - name: C
+         loc:  (0,0) # (x,y) lambda
+       - name: Y
+         loc:  (0,0) # (x,y) lambda
+  
+
+  #-----------------------------------------------------------------------
+  # TIEHI
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the back-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  
+   - name: TIEHI
+     size:
+       width:  0 # lambda
+       height: 0 # lambda
+     pins:
+       - name: Y
+         loc:  (0,0) # (x,y) lambda
+  
+
+  #-----------------------------------------------------------------------
+  # TIELO
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the back-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  
+   - name: TIELO
+     size:
+       width:  0 # lambda
+       height: 0 # lambda
+     pins:
+       - name: Y
+         loc:  (0,0) # (x,y) lambda
+  
+
+  #-----------------------------------------------------------------------
+  # FILL
+  #-----------------------------------------------------------------------
+
+  #''' LAB/PROJET TASK '''''''''''''''''''''''''''''''''''''''''''''''''''
+  # Implement the back-end view
+  #'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  
+   - name: FILL
+     size:
+       width:  0 # lambda
+       height: 0 # lambda
+  
+
