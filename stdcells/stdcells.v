@@ -12,9 +12,7 @@ module INVX1
   output Y
 );
 
-  //''' LAB/PROJECT TASK '''''''''''''''''''''''''''''''''''''''''''''''''
-  // Implement behavioral view
-  //''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  assign Y = !A;
 
 endmodule
 
@@ -29,9 +27,7 @@ module NAND2X1
   output Y
 );
 
-  //''' LAB/PROJECT TASK '''''''''''''''''''''''''''''''''''''''''''''''''
-  // Implement behavioral view
-  //''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  assign Y = !(A&B);
 
 endmodule
 
@@ -46,9 +42,7 @@ module NOR2X1
   output Y
 );
 
-  //''' LAB/PROJECT TASK '''''''''''''''''''''''''''''''''''''''''''''''''
-  // Implement behavioral view
-  //''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  assign Y = !(A|B);
 
 endmodule
 
@@ -64,9 +58,7 @@ module AOI21X1
   output Y
 );
 
-  //''' LAB/PROJECT TASK '''''''''''''''''''''''''''''''''''''''''''''''''
-  // Implement behavioral view
-  //''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+  assign Y = !((A&B)|C);
 
 endmodule
 

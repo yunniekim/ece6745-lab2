@@ -8,9 +8,8 @@
 
 .SUBCKT INVX1 A Y VDD VSS
 
-*''' LAB/PROJECT TASK ''''''''''''''''''''''''''''''''''''''''''''''''''''
-* Implement schematic view
-*'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+M_P Y A VDD VDD PMOS L=0.18U W=1.44U
+M_N Y A VSS VSS NMOS L=0.18U W=0.72U
 
 .ENDS INVX1
 
